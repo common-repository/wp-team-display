@@ -1,0 +1,37 @@
+.shortcode_generate_wpteam textrea,
+.details_profiles_cols input,
+.details_profiles_cols textarea,
+#details_profiles_area input,
+#details_profiles_area textarea {
+	width: 100%;
+	padding: 8px;
+}
+
+.shortcode_generate textarea {
+	width: 100%;
+	max-width: 600px;
+	min-height: 100px;
+}
+
+.shortcode_tswrp p, .shortcode_tswrp li {
+    font-size: 18px;
+	line-height:26px;
+	margin-bottom:15px;
+}
+  .shortcode_tswrp ul { 
+  margin-left: 20px  !important;
+    list-style: square !important;
+    padding-left: 20px !important;
+	
+	}
+.admin-buy-now {
+-webkit-box-shadow: 0 2px 0 #6f9a37;
+    box-shadow: 0 2px 0 #6f9a37;
+    position: relative;
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: #82b440;
+    color: #fff;
+    border-radius: 5px;
+	display:inline-block;
+}

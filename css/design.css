@@ -1,0 +1,114 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+
+
+.member_thumbnail img {
+	border: none;
+	box-shadow: none;
+	padding: 5px;
+	width: 100%;
+    height: 100%;
+}
+
+.member_thumbnail {
+	width: 100%;
+	background-size: cover;
+	display: inline-block;
+	position: relative;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	height: 100%;
+}
+
+.member_wrp h2:before {
+	display: none;
+}
+
+.member_wrp h2 {
+	font-size: 20px;
+	margin: 10px 0;
+}
+
+.member_wrp a {
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.member_wrp p {
+	font-size: 20px;
+	margin: 0;
+}
+
+.member_wrp ul {
+	padding: 0;
+	margin: 0;
+	margin-top: 15px;
+}
+
+.member_wrp ul li img {
+	max-width: 26px;
+}
+
+.member_wrp ul li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 4px;
+}
+
+.member_wrp {
+	text-align: center;
+}
+
+
+/* No Carousel css */
+
+.no-carousel .item {
+	display: inline-block;
+	margin-bottom: 2em;
+	padding: 5px;
+	float: left;
+}
+
+.mem_carousel .owl-dots .owl-dot {
+	margin-right: 10px;
+}
+
+.mem_carousel .owl-dots span {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	background-color: #000;
+	border-radius: 10px;
+}
+
+.mem_carousel .owl-dots {
+	text-align: center;
+	margin: 1em 0;
+}
+
+.mem_carousel .owl-dots .active span {
+	background-color: #8e8e8e;
+}
+
+.mem_carousel .owl-nav {
+	position: absolute;
+	width: 100%;
+	top: 50%;
+}
+
+.mem_carousel button.owl-prev {
+	position: absolute;
+	left: -20px;
+}
+
+.mem_carousel button.owl-next {
+	position: absolute;
+	right: -20px;
+}
+
+.mem_carousel button.owl-prev span,
+.mem_carousel button.owl-next span {
+	font-size: 60px;
+}
